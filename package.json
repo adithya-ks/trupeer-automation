@@ -1,0 +1,16 @@
+{
+  "name": "trupeer-assignment",
+  "private": true,
+  "workspaces": [
+    "part2",
+    "part3"
+  ],
+  "scripts": {
+    "test:e2e": "npm test --workspace part2",
+    "validate": "npm run validate --workspace part3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0"
+  }
+}
